@@ -23,7 +23,7 @@
         "../sass/compoents/_checkbox.scss",
         "../sass/compoents/_modal-label-btn.scss",
         "../sass/layout/_header.scss",
-        "../sass/layout/_heero.scss",
+        "../sass/layout/_hero.scss",
         "../sass/layout/_posibilities.scss",
         "../sass/layout/_duty.scss",
         "../sass/layout/_team.scss",
