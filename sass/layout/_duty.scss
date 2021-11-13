@@ -12,9 +12,9 @@
 }
 .duty-img {
   position: relative;
-}
-.duty-img:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .duty-text {
   display: flex;
