@@ -14,6 +14,9 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.modal-close-link {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-svg-link {
   position: absolute;
   width: 33px;
@@ -23,11 +26,8 @@
   background-color: var(--contacts-color);
   top: 8px;
   right: 8px;
-}
-.modal-close-link {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-svg-link:hover .modal-close-link,
-.modal-svg-link:focus .modal-close-link {
-  fill: var(--accent-color);
+  &:hover .modal-close-link,
+  &:focus .modal-close-link {
+    fill: var(--accent-color);
+  }
 }

@@ -11,16 +11,16 @@
 .input-checkbox {
   position: absolute;
   -webkit-appearance: none;
-}
-.input-checkbox:focus + .check-box,
-.input-checkbox:hover + .check-box {
-  background-image: url(../images/hf-checkbox.svg);
+  &:focus + .check-box,
+  &:hover + .check-box {
+    background-image: url(../images/hf-checkbox.svg);
+  }
+  &:checked + .check-box {
+    background-color: var(--accent-color);
+    background-image: url(../images/checked.svg);
+  }
 }
 /* checked */
-.input-checkbox:checked + .check-box {
-  background-color: var(--accent-color);
-  background-image: url(../images/checked.svg);
-}
 .check-box {
   position: absolute;
   width: 16px;
