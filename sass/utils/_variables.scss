@@ -20,9 +20,3 @@
   --footer_link-color: rgba(255, 255, 255, 0.6);
   --background-overlay-background: rgba(33, 150, 243, 0.9);
 }
-@mixin fonts($fs, $fw, $lh, $ls) {
-  font-size: $fs;
-  font-weight: $fw;
-  line-height: $lh;
-  letter-spacing: $ls;
-}
