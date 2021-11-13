@@ -1,9 +1,6 @@
 .btn-services {
   font-family: Roboto;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  @include fonts(16px, 700, 1.87, 0.06em);
   width: 200px;
   height: 50px;
   border-radius: 4px;

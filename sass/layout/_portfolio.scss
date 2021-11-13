@@ -20,10 +20,7 @@
 }
 
 .portfolio-nav {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  @include fonts(16px, 500, 1.62, 0.03em);
   color: var(--header-text-color-link);
   font-family: Roboto;
 }
@@ -59,16 +56,11 @@
   padding: 20px 24px;
 }
 .h3-text {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include fonts(18px, 700, 2, 0.06em);
   color: var(--primary-text-color);
   margin-bottom: 4px;
 }
 .description-text {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
+  @include fonts(16px, 400, 1.87, 0.03em);
   color: var(--secondary-text-color);
 }

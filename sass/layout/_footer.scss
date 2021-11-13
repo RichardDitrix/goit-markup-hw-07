@@ -1,8 +1,6 @@
 .footer {
   display: flex;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include fonts(14px, 400, 1.71, 0.03em);
   color: var(--footer-color);
   background-color: var(--footer-background-color);
 }
@@ -14,10 +12,7 @@
 }
 .studio-footer {
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include fonts(26px, 700, 1.19, 0.03em);
   color: var(--contacts-color);
 }
 .footer__contacts {
@@ -30,27 +25,21 @@
   font-family: Roboto;
   font-style: normal;
   display: block;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include fonts(14px, 400, 1.71, 0.03em);
   color: var(--contacts-color);
 }
 .footer_link {
   font-family: Roboto;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include fonts(14px, 400, 1.71, 0.03em);
   color: var(--footer_link-color);
 }
 .footer__flex {
   margin-left: 70px;
 }
 .footer__flex__h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include fonts(14px, 400, 1.14, 0.03em);
+
   color: var(--contacts-color);
   display: flex;
   justify-content: flex-start;
@@ -100,10 +89,7 @@
 }
 .footer__label {
   display: flex;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include fonts(14px, 400, 1.14, 0.03em);
   text-transform: uppercase;
   color: var(--contacts-color);
   margin-bottom: 20px;

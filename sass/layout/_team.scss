@@ -24,16 +24,11 @@
 }
 .names {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+  @include fonts(16px, 500, 1.18, 0.03em);
   color: var(--primary-text-color);
 }
 .work {
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+  @include fonts(16px, 400, 1.18, 0.03em);
   color: var(--secondary-text-color);
   margin-bottom: 16px;
 }

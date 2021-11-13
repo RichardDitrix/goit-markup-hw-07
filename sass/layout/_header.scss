@@ -11,18 +11,12 @@
 }
 .web {
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include fonts(26px, 700, 1.19, 0.03em);
   color: var(--web-color);
 }
 .studio {
   font-family: Raleway;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include fonts(26px, 400, 1.19, 0.03em);
   color: var(--studio-color);
 }
 .header__nav {
@@ -54,10 +48,7 @@
 }
 
 .header__link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include fonts(14px, 500, 1.14, 0.02em);
   color: var(--header-text-color-link);
 }
 .header__connect {
@@ -71,10 +62,7 @@
   margin-right: 50px;
 }
 .header__adress {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include fonts(14px, 500, 1.14, 0.02em);
   color: var(--header-text-color);
 }
 .header__svg__link {
