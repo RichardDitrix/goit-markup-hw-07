@@ -1,0 +1,33 @@
+.modal-label-btn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  background-color: var(--web-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--nav-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.modal-svg-link {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--contacts-color);
+  top: 8px;
+  right: 8px;
+}
+.modal-close-link {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-svg-link:hover .modal-close-link,
+.modal-svg-link:focus .modal-close-link {
+  fill: var(--accent-color);
+}
