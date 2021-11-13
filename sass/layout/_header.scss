@@ -2,11 +2,11 @@
   padding: 25px 0px;
   border-bottom: 1px solid var(--border-color);
 }
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
-.header-logo {
+.header__logo {
   margin-right: 95px;
 }
 .web {
@@ -25,18 +25,18 @@
   letter-spacing: 0.03em;
   color: var(--studio-color);
 }
-.header-nav {
+.header__nav {
   display: flex;
 }
-.menu-list {
+.header__list {
   display: flex;
   position: relative;
   width: 295px;
 }
-.menu-item {
+.header__item {
   position: relative;
 }
-.menu-item:not(:last-child) {
+.header__item:not(:last-child) {
   margin-right: 50px;
 }
 .current {
@@ -53,38 +53,38 @@
   }
 }
 
-.menu-link {
+.header__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-text-color-link);
 }
-.header-connect {
+.header__connect {
   display: flex;
   margin-left: auto;
 }
-.header-contacts {
+.header__contacts {
   display: flex;
 }
-.header-contacts-list:not(:last-child) {
+.header__contacts__list:not(:last-child) {
   margin-right: 50px;
 }
-.header-adress {
+.header__adress {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
-.header-svg-link {
+.header__svg__link {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header-svg {
+.header__svg {
   fill: currentColor;
   display: flex;
   margin-right: 10px;
